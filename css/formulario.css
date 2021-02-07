@@ -41,15 +41,21 @@ section .formulario .primera-parte fieldset{
     padding:30px;
 }
 
+section .formulario .primera-parte .caja-fieldset fieldset label{
+    display: flex;
+    justify-content: center;
+
+}
+
 section .formulario .primera-parte .caja-fieldset fieldset input,
 section .formulario .primera-parte .caja-inputs input{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    padding:14px 60px 14px 8px;
-    margin: 15px 0;
+    padding:15px;
+    margin: 15px auto;
     font-size: 15px;
-    width: 90%;
+    width: 80%;
 }
 
 section .formulario .primera-parte .tarjeta-padre{
@@ -61,7 +67,7 @@ section .formulario .primera-parte .tarjeta-padre .tarjeta{
     display: inline-block; */
     flex-direction: row;
     text-align: center;
-    width: 20%;
+    width: 30%;
 }
 
 section .boton{
@@ -85,4 +91,18 @@ section .botonin:hover{
     color:rgb(62, 51, 65);
     cursor:pointer;
     font-weight: bold;
+}
+
+
+@media screen and (max-width:500px){
+    body{
+        width: 100%;
+    }
+    section{
+        padding: 0;
+    }
+
+    section .formulario .primera-parte .tarjeta-padre .tarjeta{
+        width: auto;
+    }
 }
