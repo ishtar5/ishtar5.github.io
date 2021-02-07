@@ -145,13 +145,17 @@ footer .redes-sociales .instagram:hover{
 }
 
 @media screen and (max-width:500px){
-    
-    header .menu a {
-        font-size: 2.5em;
+
+    body{
+        width: 100%;
     }
+
+    header{
+        font-size: 14px;
+    }
+    
     section{
         width: 100%;
-        font-size: 2em;
     }
 
     section .imagen{
@@ -162,28 +166,23 @@ footer .redes-sociales .instagram:hover{
         width: 100%;
     }
     
-    section .texto .curso p {
-        line-height: 60px;
+    section .texto .curso h3 {
+        margin: 0;
 
     }
     aside .contenedor{
         width: 100%;
-        font-size: 2em;
-    }
-
-    aside .contenedor .tecnologias-destacados p {
-        line-height: 60px;
     }
 
     footer .redes-sociales{
         margin: 20px 0;
     }
 
-    footer .redes-sociales a{
-        font-size: 60px;
+    footer .redes-sociales {
+        flex-wrap: wrap;
     }
 
     footer p{
-        font-size: 45px;
+        padding-bottom: 20px;
     }
 }
