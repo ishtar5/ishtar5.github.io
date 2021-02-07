@@ -27,6 +27,8 @@ header .menu a:hover{
 section{
     width:700px;
     background-color: rgb(235, 228, 228);
+    float:left;
+    
 }
 section .texto .titulo{
     width:700px;
@@ -37,5 +39,102 @@ section .texto .curso{
     padding:10px;
 }
 section .texto .curso h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
+}
+section .texto .curso p{
+    padding:10px;
+    line-height:30px;
+}
+section .texto .curso ul{
+    list-style: disclosure-closed;
+    display:block;
+    padding: 0 0 0 40px;
 
+}
+section .texto .curso li{
+    font-size:18px;
+}
+aside .contenedor{
+    background:black;
+    float:left;
+    width:300px;
+    /*display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;*/
+}
+aside .contenedor .trabajos-destacados h3{
+    color:rgb(231, 186, 186);
+    padding:10px 10px;
+    font-weight: normal;
+    text-align: center;
+}
+aside .contenedor .trabajos-destacados li{
+    list-style:none;
+    border-bottom: 1px solid rgb(235, 228, 228);
+}
+aside .contenedor .trabajos-destacados li a{
+    display:block;
+    text-decoration: none;
+    color :rgb(235, 228, 228);
+    padding: 20px;
+}
+aside .contenedor .trabajos-destacados li a:hover{
+    background: rgb(235, 228, 228);
+    color: black;
+    cursor:pointer;
+}
+
+aside .contenedor .tecnologias-destacados h3{
+    color:rgb(231, 186, 186);
+    padding:10px 10px;
+    font-weight: normal;
+    padding-top:20px;
+    text-align: center;
+}
+aside .contenedor .tecnologias-destacados p{
+    color:rgb(235, 228, 228);
+    padding:10px 20px;
+    line-height: 30px;
+    text-align: center;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color:rgb(235, 228, 228);
+    text-align: center;
+}
+footer .redes-sociales{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+footer .redes-sociales a{
+    color:white;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding:15px 0;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+footer .redes-sociales .twitter:hover{
+    background: #1da1f2;
+}
+footer .redes-sociales .facebook:hover{
+    background: #3b5998;
+}
+footer .redes-sociales .youtube:hover{
+    background: #ff0000;
+}
+footer .redes-sociales .github:hover{
+    background: #666666;
+}
+footer .redes-sociales .linkedin:hover{
+    background: #0077b5;
+}
+footer .redes-sociales .instagram:hover{
+    background: #833ab4;
 }
