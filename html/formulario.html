@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="https://ishtar5.github.io/html/portada.html">Inicio</a>
+            <a href="https://ishtar5.github.io/html/portada.html#id-acerca-de">Acerca de</a>
+            <a href="https://ishtar5.github.io/html/portada.html#id-trabajos">Trabajos</a>
+            <a href="https://ishtar5.github.io/html/portada.html#id-contacto">Contacto</a>
+        </nav>
+    </header>
+    <section>
+        <div class=formulario>
+            <div class="primera-parte">
+                <h3 class="titulo">Formulario</h3>
+                <form action="" method="">
+                    <div class="caja-fieldset">
+                        <fieldset>
+                                <legend>Datos personales</legend>
+                                <label for="nombre">Nombre completo</label>
+                                <input type="text" placeholder="Nombre y apellidos" id="nombre" required>
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Email" id="email" required>
+                                <label for="telefono">Teléfono</label>
+                                <input type="text" placeholder="Teléfono" id="telefono" required>
+                        </fieldset>
+                    </div> 
+                    <div class="caja-fieldset">
+                        <fieldset>
+                            <legend>Datos de envío</legend>
+                            <label for="direccion">Dirección</label>
+                            <input type="text" placeholder="Dirección" id="direccion" required>
+                            <label for="cod-p">Código Postal</label>
+                            <input type="text" placeholder="Código Postal" id="cod-p" required>
+                            <label for="pais">País</label>
+                            <input type="text" placeholder="País" id="pais" required>
+                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <legend>Datos de pago</legend>
+                        <label for="tarjeta">Tipo de tarjeta</label>
+                        <div class="tarjeta-padre">
+                            <div class="tarjeta">
+                                <label for="tarjeta1">VISA</label>
+                                <input type="radio" id="tarjeta1" name="tarjeta" value="VISA">
+                            </div>
+                            <div class="tarjeta">
+                                <label for="tarjeta2">Mastercard </label>
+                                <input type="radio" id="tarjeta2" name="tarjeta" value="Mastercard">
+                            </div>
+                            <div class="tarjeta">
+                                <label for="tarjeta3">PayPal</label>
+                                <input type="radio" id="tarjeta3" name="tarjeta" value="PayPal">
+                            </div>
+                        </div>
+
+                        <div class="caja-inputs">
+                            <label for="ntarjeta">Número de tarjeta</label>
+                            <input type="text" placeholder="Número de tarjeta" id="ntarjeta" required>
+                            <label for="nseguridad">Número de seguridad</label>
+                            <input type="text" placeholder="Número de seguridad" id="nseguridad" required>
+                            <label for="fecha">Fecha de caducidad</label>
+                            <input type="date" id="fecha" required>
+                        </div>  
+                    </fieldset>
+                    <div class="boton">
+                        <input class="botonin" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
