@@ -278,4 +278,17 @@ footer .redes-sociales .instagram:hover{
     footer .redes-sociales .contenedor{
         flex-wrap: wrap;
     }
+
+    header .contenedor-texto {
+        margin: 0 0 190px 0;
+    }
+
+    header .contenedor-texto .texto {
+        padding: 20px 10px;
+    }
+
+    footer .contacto .formulario input[type="text"], footer .contacto .formulario input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
