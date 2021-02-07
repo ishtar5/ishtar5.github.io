@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 body{
     background: rgb(62, 51, 65);
@@ -25,7 +26,7 @@ header .menu a:hover{
     background-color: rgb(51, 49, 49);
 }
 section{
-    width:700px;
+    width:70%;
     background-color: rgb(235, 228, 228);
     float:left;
     
