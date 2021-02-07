@@ -292,6 +292,10 @@ footer .redes-sociales .instagram:hover{
         margin-bottom: 15px;
     }
 
+    .main .acerca{
+        text-align: left;
+    }
+
     .main .acerca .texto {
         width: 100%;
     }
