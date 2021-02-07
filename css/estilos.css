@@ -291,4 +291,8 @@ footer .redes-sociales .instagram:hover{
         width: 100%;
         margin-bottom: 15px;
     }
+
+    .main .acerca .texto {
+        width: 100%;
+    }
 }
